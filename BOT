@@ -8,10 +8,10 @@ from requests.exceptions import RequestException
 
 # Cấu hình
 CHAIN_ID = "bsc"  # Thay bằng "97" nếu dùng testnet
-MASTER_WALLET = "MASTER_WALLET_ADDRESS".lower()  # Wallet master
-BOT_PRIVATE_KEY = "YOUR_BOT_PRIVATE_KEY"  # Private key ví bot (không có 0x)
+MASTER_WALLET = "0xb8293d274e4c45750f6f2da2514de33b5a728bfa".lower()  # Wallet master
+BOT_PRIVATE_KEY = "105346693ce74c4956672870baa40250eb3963d86f8b3f91d534372158e22c88"  # Private key ví bot (không có 0x)
 WBNB_ADDRESS = "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"  # WBNB
-MIN_TRADE_VALUE = 1000  # USD (master trade > $1000)
+MIN_TRADE_VALUE = 99  # USD (master trade > $1000)
 COPY_TRADE_VALUE = 19  # USD (bot copy $500)
 SLIPPAGE = 9.0  # 9%
 GAS_PRICE = Web3.to_wei(9, 'gwei')  # 9 Gwei
